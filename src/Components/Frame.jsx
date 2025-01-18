@@ -3,7 +3,7 @@ import "../Components/Frame.css";
 
 const Frame = () => {
   return (
-    <div className="  pt-lg-5 p-lg-0 ps-lg-5 pe-lg-5   " style={{ backgroundColor: "#fafbfc" }}>
+    <div className="  pt-lg-5 p-lg-0 ps-lg-5 pe-lg-5   " style={{ backgroundColor: "#fafbfc"}}>
       <div className="card  p-4 border-bottom-0 rounded-0 rounded-top border-0 ">
         <h5 className="mb-3 fw-bold">DNS Records</h5>
         <p className="text-muted">
@@ -36,7 +36,7 @@ const Frame = () => {
                 required
               />
             </div>
-            <button className="col-md-4 mb-3 text-center text-white rounded  h-100 p-2 search_btn ">
+            <button className="col-md-4 mb-3 text-center text-white rounded  h-100 p-1 search_btn" style={{"marginTop":"2.1rem"}} >
               Search DNS Records
             </button>
           </div>
